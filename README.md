@@ -1,5 +1,4 @@
 # Open Source NPM Package Template
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 Template for your own Open Source NPM Package.
 
@@ -8,6 +7,7 @@ Template for your own Open Source NPM Package.
 [![Downloads/week](https://img.shields.io/npm/dw/open-source-npm-package-template.svg)](https://npmjs.org/package/open-source-npm-package-template)
 [![License](https://img.shields.io/npm/l/open-source-npm-package-template.svg)](https://github.com/prokopsimek/open-source-npm-package-template/blob/master/package.json)
 ![npm collaborators](https://img.shields.io/npm/collaborators/open-source-npm-package-template)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat)](#contributors)
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 
 ## Getting Started
