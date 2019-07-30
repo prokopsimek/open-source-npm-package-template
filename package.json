@@ -1,6 +1,6 @@
 {
   "name": "open-source-npm-package-template",
-  "version": "0.1.1-1",
+  "version": "0.1.1-2",
   "description": "An open source template for NPM package with badges, readme and common tooling.",
   "main": "lib/index.js",
   "homepage": "https://github.com/prokopsimek/open-source-npm-package-template",
