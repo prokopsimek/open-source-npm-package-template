@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "prokopsimek",
+      "name": "Prokop Simek",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5487217?v=4",
+      "profile": "https://github.com/prokopsimek",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "open-source-npm-package-template",
+  "projectOwner": "prokopsimek",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
