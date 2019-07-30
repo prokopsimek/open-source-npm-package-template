@@ -1,0 +1,70 @@
+{
+  "name": "open-source-npm-package-template",
+  "version": "0.0.1",
+  "description": "An open source template for NPM package with badges, readme and common tooling.",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/prokopsimek/open-source-npm-package-template",
+  "repository": "git@github.com:prokopsimek/open-source-npm-package-template.git",
+  "author": "Prokop Simek <prokop.simek@applifting.cz>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": "https://github.com/prokopsimek/open-source-npm-package-template/issues",
+  "contributors": [
+    {
+      "name": "Prokop Simek",
+      "email": "prokop.simek@applifting.cz",
+      "url": "https://applifting.cz"
+    }
+  ],
+  "scripts": {
+    "build": "rimraf lib && tsc -b",
+    "build:watch": "yarn build -w",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "yarn lint --fix",
+    "prepack": "yarn build",
+    "start": "./bin/run",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "validate": "yarn install && yarn build && yarn lint && yarn test"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.6.8",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "npm-check-updates": "^3.1.20",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=10.15.3",
+    "yarn": "^1.15.2"
+  },
+  "bin": {
+    "prsnpm": "./bin/run"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "oclif": {
+    "bin": "prsnpm"
+  },
+  "keywords": [
+    "oclif",
+    "npm template",
+    "open source template"
+  ],
+  "dependencies": {
+    "@oclif/command": "^1.5.18",
+    "@oclif/config": "^1.13.2",
+    "@oclif/plugin-help": "^2.2.0"
+  }
+}
