@@ -1,12 +1,14 @@
 language: node_js
 node_js:
-  - '10'
   - '12'
 
 cache:
   yarn: true
 
 validate:
+  node_js:
+  - '10'
+  - '12'
   srcipt:
   - yarn build
   - yarn test --coverage
