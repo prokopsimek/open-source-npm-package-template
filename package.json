@@ -48,14 +48,14 @@
     "yarn": "^1.15.2"
   },
   "bin": {
-    "prsnpm": "./bin/run"
+    "open-source-npm-package-template": "./bin/run"
   },
   "files": [
     "/bin",
     "/lib"
   ],
   "oclif": {
-    "bin": "prsnpm"
+    "bin": "open-source-npm-package-template"
   },
   "keywords": [
     "oclif",
