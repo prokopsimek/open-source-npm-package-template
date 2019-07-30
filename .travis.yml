@@ -6,10 +6,6 @@ node_js:
 cache:
   yarn: true
 
-stages:
-  - name: deploy
-    # if: tag IS present AND branch = master
-
 srcipt:
   - yarn build
   - yarn test --coverage
@@ -19,6 +15,7 @@ srcipt:
 jobs:
   include:
   - stage: deploy
+    if: branch = master
     node_js: '12'
     script: echo "Deploying to npm ..."
     deploy:
