@@ -6,6 +6,10 @@ node_js:
 cache:
   yarn: true
 
+stages:
+  - name: deploy
+    if: tag =~ ^v
+
 srcipt:
   - yarn build
   - yarn test --coverage
@@ -17,7 +21,6 @@ jobs:
   - stage: deploy
     node_js: '12'
     script: echo "Deploying to npm ..."
-    if: tag =~ ^v
     deploy:
       provider: npm
       email: prokopsimek@gmail.com
