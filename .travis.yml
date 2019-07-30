@@ -17,6 +17,8 @@ jobs:
   - stage: deploy
     node_js: '12'
     script: echo "Deploying to npm ..."
+    only:
+      - tags
     deploy:
       provider: npm
       email: prokopsimek@gmail.com
