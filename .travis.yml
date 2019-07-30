@@ -15,7 +15,7 @@ srcipt:
 jobs:
   include:
   - stage: deploy
-    if: branch = master
+    if: tag IS present
     node_js: '12'
     script: echo "Deploying to npm ..."
     deploy:
