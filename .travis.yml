@@ -8,7 +8,7 @@ cache:
 
 stages:
   - name: deploy
-    if: tag IS present AND branch = master
+    # if: tag IS present AND branch = master
 
 srcipt:
   - yarn build
