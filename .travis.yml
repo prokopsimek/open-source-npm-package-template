@@ -20,7 +20,8 @@ jobs:
   - stage: deploy
     if: tag IS present
     node_js: '12'
-    script: echo "Deploying to npm ..."
+    before_deploy:
+      - cd lib
     deploy:
       provider: npm
       email: prokopsimek@gmail.com
@@ -29,3 +30,4 @@ jobs:
       on:
         tags: true
         repo: prokopsimek/open-source-npm-package-template
+      skip_cleanup: true
