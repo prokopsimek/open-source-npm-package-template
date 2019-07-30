@@ -20,8 +20,6 @@ jobs:
   - stage: deploy
     if: tag IS present
     node_js: '12'
-    before_deploy:
-      - cd lib
     deploy:
       provider: npm
       email: prokopsimek@gmail.com
