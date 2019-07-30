@@ -5,6 +5,9 @@ node_js:
 
 cache:
   yarn: true
+  directories:
+    - lib
+    - node_modules
 
 srcipt:
   - yarn build
