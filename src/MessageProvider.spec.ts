@@ -9,9 +9,7 @@ describe('MessageProvider', () => {
   describe('#get', () => {
     it('returns message', () => {
       const provider = new MessageProvider('Prokop Simek');
-      expect(provider.get()).toEqual(
-        'hello Prokop Simek from ./src/Message.ts',
-      );
+      expect(provider.get()).toEqual('hello Prokop Simek from ./src/Message.ts');
     });
   });
 });
