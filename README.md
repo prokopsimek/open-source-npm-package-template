@@ -32,3 +32,5 @@ Feel free to contribute to the Open Source NPM Package Template. If you want to 
 ## License
 
 The Open Source NPM Package Template is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+👋
