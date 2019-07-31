@@ -62,6 +62,9 @@
     "npm template",
     "open source template"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@oclif/command": "^1.5.18",
     "@oclif/config": "^1.13.2",
