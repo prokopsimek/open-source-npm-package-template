@@ -1,5 +1,5 @@
 {
-  "name": "open-source-npm-package-template",
+  "name": "@dxheroes/open-source-npm-package-template-org",
   "version": "1.0.0",
   "description": "An open source template for NPM package with badges, readme and common tooling.",
   "main": "lib/index.js",
