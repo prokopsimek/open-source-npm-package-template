@@ -9,7 +9,7 @@ cache:
     - lib
     - node_modules
 
-srcipt:
+script:
   - yarn build
   - yarn test --coverage
   - yarn lint
